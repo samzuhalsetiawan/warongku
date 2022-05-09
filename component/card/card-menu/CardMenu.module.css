@@ -1,0 +1,42 @@
+.main-container {
+  height: 622px;
+  width: 286px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin: 14px;
+  cursor: pointer;
+}
+.main-container img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.card-detail {
+  height: 222px;
+  background-color: #E2C275;
+  padding: 16px 24px;
+}
+.nama-dan-harga {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.nama-dan-harga h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: var(--black-font);
+}
+.lokasi {
+  color: var(--main-color1);
+}
+.card-detail p {
+  margin-top: 8px;
+  color: var(--black-font);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}

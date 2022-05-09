@@ -1,0 +1,46 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 126px 0px;
+}
+.main-title h2 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+.garis-pemisah {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 20px;
+  margin: 38px 0px;
+}
+.garis {
+  height: 1.5px !important;
+  min-height: 1.5px;
+  width: 100%;
+  background-color: var(--black);
+  margin: 0px 14px;
+}
+.belah-ketupat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: inline-block;
+  width: 15.37px;
+  height: 15.37px;
+  background-color: var(--black);
+  transform: translateX(-50%) translateY(-50%) rotateZ(45deg);
+}
+.inner-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
