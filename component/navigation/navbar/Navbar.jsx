@@ -1,6 +1,6 @@
-import Cart from '../svg/cart/Cart'
-import Dropdown from '../svg/dropdown/Dropdown'
-import Logo from '../svg/logo/Logo'
+import Cart from '../../svg/cart/Cart'
+import Dropdown from '../../svg/dropdown/Dropdown'
+import Logo from '../../svg/logo/Logo'
 import styles from './Navbar.module.css'
 
 export default function Navbar() {

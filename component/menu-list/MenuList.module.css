@@ -6,9 +6,9 @@
   padding-bottom: 126px;
   /* border: 1px solid black; */
 }
-.card-container {
+.card-menu-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
 }

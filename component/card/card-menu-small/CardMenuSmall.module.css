@@ -1,5 +1,5 @@
 .main-container {
-  height: 640px;
+  height: 400px;
   width: 286px;
   overflow: hidden;
   border-radius: 8px;
@@ -7,22 +7,26 @@
   cursor: pointer;
   filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .main-container img {
   display: block;
   width: 100%;
-  height: 400px;
+  height: 200px;
   object-fit: cover;
 }
+
 .card-detail {
-  height: 240px;
+  height: 200px;
   background-color: #E2C275;
   padding: 16px 24px;
 }
+
 .nama-dan-harga {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .nama-dan-harga h3 {
   font-family: 'Roboto';
   font-style: normal;
@@ -30,9 +34,11 @@
   font-size: 1.1em;
   color: var(--black-font);
 }
+
 h3.lokasi {
   color: var(--main-color1);
 }
+
 .card-detail p {
   margin-top: 8px;
   color: var(--black-font);
@@ -41,20 +47,24 @@ h3.lokasi {
   font-weight: 400;
   font-size: 16px;
 }
+
 .deskripsi {
-  height: 5em;
+  height: 3em;
   overflow-y: scroll;
 }
+
 .deskripsi {
   -ms-overflow-style: none;
   /* Internet Explorer 10+ */
   scrollbar-width: none;
   /* Firefox */
 }
+
 .deskripsi::-webkit-scrollbar {
   display: none;
   /* Safari and Chrome */
 }
+
 .counter {
   background-color: var(--main-background-color);
   padding: 0.2rem 0.4rem;
@@ -63,6 +73,7 @@ h3.lokasi {
   justify-content: space-between;
   align-items: center;
 }
+
 .counter button {
   border: none;
   outline: none;
@@ -73,6 +84,7 @@ h3.lokasi {
   font-weight: 500;
   color: var(--black-font2);
 }
+
 .minus,
 .plus {
   font-size: 1.5rem;
@@ -87,13 +99,14 @@ h3.lokasi {
   margin-top: 1rem;
 }
 
-.pesan-dan-star > button,
-.pesan-dan-star > span {
+.pesan-dan-star>button,
+.pesan-dan-star>span {
   background-color: var(--main-background-color);
   padding: 0.2rem 0.4rem;
   border-radius: 8px;
 }
-.pesan-dan-star > button {
+
+.pesan-dan-star>button {
   border: none;
   outline: none;
   cursor: pointer;

@@ -1,6 +1,6 @@
-import styles from './CardMenu.module.css'
+import styles from './CardMenuSmall.module.css'
 
-export default function CardMenu({ linkImg, altImg, namaMakanan, harga, deskripsi }) {
+export default function CardMenuSmall({ linkImg, altImg, namaMakanan, harga, deskripsi }) {
   return (
     <div className={styles['main-container']}>
       <img src={linkImg || ""} alt={altImg || ""} />

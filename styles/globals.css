@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto+Slab:wght@800&family=Roboto:wght@400;500;700&display=swap');
 
 :root {
   --black: #191919;
   --black-font: #334449;
   --main-color1: rgb(195, 106, 45);
+  --cream: #E2C275;
   --main-background-color: #FFFBEB;
+  --black-font2: #4F4B41;
+  --white-font: #F7F7F7;
 }
 
 * {
@@ -17,3 +18,11 @@
 #main-container {
   background-color: var(--main-background-color);
 }
+#main-section-container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 126px;
+}
+/* #main-section-container > * {
+  border: 1px solid black;
+} */
